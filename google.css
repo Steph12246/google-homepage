@@ -56,11 +56,6 @@
   align-self: bottom;
   justify-self: center;
 }
-#search{
-  grid-area: search;
-  align-self: center;
-  justify-self: center;
-}
 #buttons{
   grid-area: buttons;
   align-self: center;
@@ -72,6 +67,9 @@
   justify-self: center;
 }
 #search {
+  grid-area: search;
+  align-self: center;
+  justify-self: center;
   width:40em;
   border-radius: 20px;
   padding:10px;
@@ -87,7 +85,8 @@
   box-shadow: 1px 1px 5px grey;
 }
 button{
-  padding: 10px;
+  padding: 10px 15px;
+  size: 20px;
   border: none;
   background-color: #f2f2f2;
   color: #5F6368;
@@ -100,6 +99,8 @@ button:hover{
  p {
    color:#000;
  }
+
+ /*footer*/
 
  .foot{
    text-decoration: none;
