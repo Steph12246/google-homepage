@@ -35,17 +35,42 @@
 .dot-profile{
   width:20px;
 }
-.google-logo{
+
+/*main*/
+#main{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 70px 70px 200px;
+  grid-template-areas:
+  ". logo ."
+  ". search ."
+  ". buttons ."
+  ". offered .";
+}
+
+#google-logo{
   max-width:20em;
 }
-/*main*/
-/*#main{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 50px 50px 50px;
-  grid-template-areas: ". gmail images dots profile";
+#logo{
+  grid-area: logo;
+  align-self: bottom;
+  justify-self: center;
 }
-*/
+#search{
+  grid-area: search;
+  align-self: center;
+  justify-self: center;
+}
+#buttons{
+  grid-area: buttons;
+  align-self: center;
+  justify-self: center;
+}
+#offered{
+  grid-area: offered;
+  align-self: top;
+  justify-self: center;
+}
 #search {
   width:40em;
   border-radius: 20px;
