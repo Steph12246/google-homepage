@@ -1,0 +1,38 @@
+/*navbar*/
+
+.top{
+  color:rgba(0,0,0,0.87);
+  text-decoration: none;
+  font-size: 1em;
+}
+.dot-profile{
+  width:20px;
+}
+.google-logo{
+  max-width:20em;
+}
+#search {
+  width:40em;
+  border-radius: 20px;
+  padding:10px;
+  border:1px solid #dfe1e5;
+  border-width: 1px;
+  text-align:left;
+  outline:none;
+}
+#search:hover {
+  box-shadow: 1px 1px 5px grey;
+}
+#search:active{
+  box-shadow: 1px 1px 5px grey;
+}
+button{
+  padding: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #5F6368;
+}
+button:hover{
+  border: 1px solid #dfe1e5;
+  border-radius: 2px;
+}
