@@ -1,4 +1,31 @@
 /*navbar*/
+#navbar{
+  display:grid;
+  grid-template-columns: 1fr 50px 50px 40px 30px;
+  grid-template-rows: auto;
+  grid-template-areas: ". gmail images dots profile";
+}
+#gmail {
+  grid-area: gmail;
+  align-self: center;
+  justify-self: center;
+
+}
+#images {
+  grid-area: images;
+  align-self: center;
+  justify-self: center;
+}
+#dots {
+  grid-area: dots;
+  align-self: center;
+  justify-self: center;
+}
+#profile{
+  grid-area: profile;
+  align-self: center;
+  justify-self: center;
+}
 
 .top{
   color:rgba(0,0,0,0.87);
@@ -11,6 +38,14 @@
 .google-logo{
   max-width:20em;
 }
+/*main*/
+/*#main{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 50px 50px 50px;
+  grid-template-areas: ". gmail images dots profile";
+}
+*/
 #search {
   width:40em;
   border-radius: 20px;
@@ -35,4 +70,14 @@ button{
 button:hover{
   border: 1px solid #dfe1e5;
   border-radius: 2px;
+  color:#000;
 }
+ p {
+   color:#000;
+ }
+
+ .foot{
+   text-decoration: none;
+   color:#5F6368;
+   background-color:#f2f2f2;
+ }
